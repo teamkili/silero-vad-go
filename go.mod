@@ -1,4 +1,4 @@
-module github.com/kLkA/silero-vad-go
+module github.com/teamkili/silero-vad-go
 
 go 1.21.4
 
