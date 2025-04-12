@@ -10,4 +10,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/kLkA/silero-vad-go => github.com/teamkili/siler-vad-go latest
