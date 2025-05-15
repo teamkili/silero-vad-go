@@ -290,7 +290,8 @@ func (sd *Detector) Reset() error {
 	for i := 0; i < stateLen; i++ {
 		sd.state[i] = 0
 	}
-	for i := 0; i < contextLen; i++ {
+	ctxLen := len(sd.ctx)
+	for i := 0; i < ctxLen; i++ {
 		sd.ctx[i] = 0
 	}
 
